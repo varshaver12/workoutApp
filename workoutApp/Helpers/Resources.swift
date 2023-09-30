@@ -14,6 +14,7 @@ enum Resources {
         
         static var background = UIColor(hexString: "#F8F9F9")
         static var separator = UIColor(hexString: "#E8ECEF")
+        static var secondary = UIColor(hexString: "#F0F3FF")
         
         static var titleGray = UIColor(hexString: "#545C77")
     }
@@ -24,6 +25,9 @@ enum Resources {
             static var progress = "Progress"
             static var settings = "Settings"
         }
+        enum Overview {
+            static var allWorkooutsButton = "All Workouts"
+        }
         
     }
     enum Images {
@@ -32,6 +36,9 @@ enum Resources {
             static var session = UIImage(named: "session")
             static var progress = UIImage(named: "progress")
             static var settings = UIImage(named: "settings")
+        }
+        enum Common {
+            static var downArrow = UIImage(named: "downArrow")
         }
     }
     enum Fonts {

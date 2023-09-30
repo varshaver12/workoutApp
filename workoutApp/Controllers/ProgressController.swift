@@ -16,6 +16,10 @@ class ProgressController: BaseController {
         addNavBarButton(at: .left, with: "Export")
         addNavBarButton(at: .right, with: "Details")
     }
+    
+    override func navBarLeftButtonHandler() {
+        print("Progress navbar left button tappet")
+    }
 
 
 }
